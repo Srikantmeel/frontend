@@ -8,7 +8,7 @@ export const SearchBar = ({ setResults }) => {
   const [isSearching, setIsSearching] = useState(false); // Track if search is ongoing
 
   const fetchData = (value) => {
-    setIsSearching(true); // Set searching state to true
+    setIsSearching(true); 
 
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
